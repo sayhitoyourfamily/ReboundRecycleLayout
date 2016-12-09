@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/production_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/production_header_anchor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/production_header_name"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:id="@+id/production_header_number_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/production_header_anchor"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kting_icon_headset"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/production_header_play_number"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kting_icon_headset"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/production_header_subscribe_number"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/production_header_subscribe_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/subscribe"
+        android:layout_below="@id/production_header_number_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/production_header_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:maxLines="2"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/production_header_subscribe_btn"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/production_header_chapter_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:maxLines="2"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/production_header_introduction" />
+
+    <TextView
+        android:id="@+id/production_header_chapter_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:maxLines="2"
+        android:textSize="15sp"
+        android:text="@string/chapter_choose"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/production_header_introduction" />
+
+    <TextView
+        android:id="@+id/production_header_chapter_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:maxLines="2"
+        android:textSize="15sp"
+        android:text="@string/chapter_order"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/production_header_chapter_choose"
+        android:layout_below="@id/production_header_introduction"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReboundRecycleLayout</string>
+    <string name="loading_text">正在努力加载...</string>
+    <string name="net_noconnect">无网络连接,请检查网络设置</string>
+    <string name="subscribe">订阅</string>
+    <string name="chapter_choose">选集</string>
+    <string name="chapter_order">顺序</string>
+</resources>

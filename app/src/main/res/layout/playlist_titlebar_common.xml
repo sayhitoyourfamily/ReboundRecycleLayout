@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/play_list_titleabr_back_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/play_list_titleabr_title_tv"
+        android:layout_toRightOf="@+id/play_list_titleabr_back_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|start"
+        android:textColor="@color/white"
+        android:textSize="@dimen/app_main_buttombar_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/kting_radio_list_divider_white"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

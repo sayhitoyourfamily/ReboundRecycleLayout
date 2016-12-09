@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_main_buttombar_textsize">16sp</dimen>
+    <dimen name="radio_head_height">170dp</dimen>
+    <dimen name="radio_list_textsize">16sp</dimen>
+    <dimen name="radio_tab_list_divider_height">3dp</dimen>
+    <dimen name="radio_tab_list_image_size">120dp</dimen>
+
+
+    <dimen name="divider_height">4dp</dimen>
+</resources>

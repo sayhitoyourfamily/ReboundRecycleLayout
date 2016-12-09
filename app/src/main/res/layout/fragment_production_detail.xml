@@ -1,0 +1,31 @@
+<com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/play_list_loading_view"
+        layout="@layout/loading_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ViewStub
+        android:id="@+id/play_net_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/net_error_common" />
+
+    <include
+        android:id="@+id/play_list_titlebar_view"
+        layout="@layout/playlist_titlebar_common"
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/play_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/play_list_titlebar_view" />
+
+
+</com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout>
