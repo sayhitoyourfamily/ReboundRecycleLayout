@@ -1,5 +1,8 @@
 # ReboundRecycleLayout
 有弹性的RecycleView容器,有背景可以下拉放大，上拉时背景不动 .
+# preview
+
+
 # Usage
   
 ```<com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout xmlns:android="http://schemas.android.com/apk/res/android"
