@@ -5,7 +5,8 @@
 
 # Usage
   
-```<com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+```
+<com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -14,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/play_list_titlebar_view" />
-</com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout>```
+</com.zhangyi.reboundrecyclelayout.customview.ReboundRecycleLayout>
+```
 
 
 
